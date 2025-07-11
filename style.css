@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color:#333;
+    margin: 0;  /*Spaces outside the element*/
+    padding: 0; /*Spaces within the element*/
+}
+
+header{
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    padding:20px;
+    margin: 10px auto;/*Within y-axis(top & buttom) should be 10px but x-axis(left & right) must be auto*/
+    max-width: 600px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.113); /*Alpha in rgba is Transparency*/
+}
+
+h2{
+    color: #007bff;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #03c6e0;
+
+}
+
+
+.about{
+    padding: 20px;
+
+}
